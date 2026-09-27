@@ -25,6 +25,12 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | [Wavelet Denoise](https://github.com/sandbranch/gimp-wavelet-denoise), [Wavelet Sharpen](https://github.com/sandbranch/gimp-wavelet-sharpen) | The original plug-ins, ported |
 | [Liquid Rescale](https://github.com/sandbranch/gimp-lqr) | The original Liquid Rescale, ported faithfully |
 
+## Image forensics
+
+| Tool | What it does |
+|---|---|
+| [Forensics](https://github.com/sandbranch/gimp-forensics) | Error Level Analysis, JPEG Ghost, noise, clone detection and more as live filters; a Workbench; a Content Credentials (C2PA) viewer |
+
 ## Game art and links to other programs
 
 | Tool | What it does |
