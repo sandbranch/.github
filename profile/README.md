@@ -24,11 +24,12 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | [Wavelet Denoise](https://github.com/sandbranch/gimp-wavelet-denoise), [Wavelet Sharpen](https://github.com/sandbranch/gimp-wavelet-sharpen) | The original plug-ins, ported |
 | [Liquid Rescale](https://github.com/sandbranch/gimp-lqr-plugin) | The original Liquid Rescale, ported faithfully |
 
-## Links to other programs
+## Game art and links to other programs
 
 | Tool | What it does |
 |---|---|
 | [GIMP Link for Blender](https://github.com/sandbranch/gimp-blender-link) | Edit a Blender texture in GIMP and send it back live |
+| [Tileset Export](https://github.com/sandbranch/gimp-tileset-export) | Tilesets for Tiled and Godot: PNG plus tile properties, collision shapes and animations |
 
 ## For developers
 
