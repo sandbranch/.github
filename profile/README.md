@@ -9,6 +9,8 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | Tool | What it does |
 |---|---|
 | [Adjustments](https://github.com/sandbranch/gegl-adjustments) | Selective Color, Black & White, Blend If and luminosity masks |
+| [Presence](https://github.com/sandbranch/gegl-presence) | Clarity, Texture, Dehaze and Whites/Blacks, as in Camera Raw |
+| [Equalizers](https://github.com/sandbranch/gegl-equalizers) | Saturation Equalizer and Advanced Unsharp Mask, ported |
 | [Color Lookup](https://github.com/sandbranch/gegl-lut) | Apply .cube, .3dl and Hald CLUT LUTs |
 | [Depth Blur](https://github.com/sandbranch/gegl-depth-blur) | Blur by a depth map, with bokeh shapes and highlights; successor to Focus Blur |
 | [Underwater](https://github.com/sandbranch/gegl-underwater) | Underwater colour correction and marine snow removal |
@@ -19,6 +21,7 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | Tool | What it does |
 |---|---|
 | [Liquid Rescale TNG](https://github.com/sandbranch/gimp-lqr-tng) | Seam carving with keep, remove and straight painted right in the dialog |
+| [Fusion](https://github.com/sandbranch/gimp-fusion) | Exposure fusion, focus stacking and layer alignment, also for microscopy |
 | [Layer Effects](https://github.com/sandbranch/gimp-layerfx) | Photoshop-style layer effects as editable layers (layerfx, ported) |
 | [Lensfun](https://github.com/sandbranch/gimp-lensfun) | Lens distortion, chromatic aberration and vignetting correction |
 | [BIMP](https://github.com/sandbranch/gimp-bimp) | Batch image manipulation |
@@ -29,7 +32,7 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 
 | Tool | What it does |
 |---|---|
-| [Forensics](https://github.com/sandbranch/gimp-forensics) | Error Level Analysis, JPEG Ghost, noise, clone detection and more as live filters; a Workbench; a Content Credentials (C2PA) viewer |
+| [Forensics](https://github.com/sandbranch/gimp-forensics) | Error Level Analysis, JPEG Ghost, noise, clone and resampling detection and more as live filters; JPEG Info; a Workbench; a Content Credentials (C2PA) viewer |
 
 ## Game art and links to other programs
 
