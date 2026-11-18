@@ -17,6 +17,12 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | [Underwater](https://github.com/sandbranch/gegl-underwater) | Underwater colour correction and marine snow removal |
 | [Wavelet Sharpen and Denoise](https://github.com/sandbranch/gegl-wavelet) | The classic wavelet filters, as editable filters |
 
+## Node Editor
+
+| Tool | What it does |
+|---|---|
+| [Node Editor](https://github.com/sandbranch/gimp-gegl-nodes) | Build a GEGL graph with nodes and apply it as one filter you can open and edit again (proof of concept, for discussion with the GIMP and GEGL developers) |
+
 ## Plug-ins
 
 | Tool | What it does |
@@ -29,6 +35,16 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | [BIMP](https://github.com/sandbranch/gimp-bimp) | Batch image manipulation |
 | [Wavelet Denoise](https://github.com/sandbranch/gimp-wavelet-denoise), [Wavelet Sharpen](https://github.com/sandbranch/gimp-wavelet-sharpen) | The original plug-ins, ported |
 | [Liquid Rescale](https://github.com/sandbranch/gimp-lqr) | The original Liquid Rescale, ported faithfully |
+
+## In progress
+
+Skeletons with a design up for review; not for use yet.
+
+| Tool | What it will do |
+|---|---|
+| [Auto Perspective](https://github.com/sandbranch/gimp-auto-perspective) | Straighten converging verticals and tilted horizons from the lines in the photo (the ashift/ShiftN method) |
+| [Photo Restore](https://github.com/sandbranch/gegl-photo-restore) | Bring back the colours of faded slides and prints, after Geoff Daniell's PhotoRestore |
+| [Astronomy](https://github.com/sandbranch/gegl-astro) | Sky background removal, star masks and reduction, stretching for astrophotography |
 
 ## Image forensics
 
@@ -45,12 +61,23 @@ built as GEGL filters, which GIMP 3 keeps editable on the layer.
 | [Pixel Art Scale](https://github.com/sandbranch/gimp-pixel-scale) | hqx, xBR and Scale2x for pixel art, as filters and for whole images |
 | [Tileset Export](https://github.com/sandbranch/gimp-tileset-export) | Tilesets for Tiled and Godot: PNG plus tile properties, collision shapes and animations |
 
+## Other programs
+
+| Tool | What it does |
+|---|---|
+| [XCF export for Inkscape](https://github.com/sandbranch/inkscape-xcf-export) | Save Inkscape drawings as layered GIMP XCF files, without GIMP |
+
 ## For developers
 
 [gimp-devtools](https://github.com/sandbranch/gimp-devtools):
-build and test GIMP 3 plug-ins against the Flatpak GIMP, and the research
+build and test GIMP 3 plug-ins against the native or the Flatpak GIMP,
+isolated from your own GIMP folders, and the research
 behind these tools (which old plug-ins still have users, what GIMP lacks
 compared with Photoshop, links with Blender and level editors).
+
+[gtknodes](https://github.com/sandbranch/gtknodes): a fork of GtkNodes,
+the GTK 3 node editor widget, with the fixes the Node Editor needs (each on
+its own branch, for upstream).
 
 Every repository has its own README with install instructions and a test
 suite that runs with one command. Ports keep their original authors and
