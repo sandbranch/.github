@@ -70,7 +70,7 @@ Skeletons with a design up for review; not for use yet.
 ## For developers
 
 [gimp-devtools](https://github.com/sandbranch/gimp-devtools):
-build and test GIMP 3 plug-ins against the native or the Flatpak GIMP,
+build and test GIMP 3 plug-ins against the native GIMP,
 isolated from your own GIMP folders, and the research
 behind these tools (which old plug-ins still have users, what GIMP lacks
 compared with Photoshop, links with Blender and level editors).
